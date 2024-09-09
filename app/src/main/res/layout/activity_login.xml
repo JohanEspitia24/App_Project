@@ -5,9 +5,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#E0E0E0"
     android:padding="16dp"
-    android:layout_margin="60dp">
+    android:layout_margin="70dp"
+    android:background="@drawable/rounded_courners">
     <!-- Botón de Login -->
     <Button
         android:id="@+id/btnLogin"
@@ -18,7 +18,7 @@
         android:backgroundTint="#BDBDBD"
         android:textStyle="bold"
         android:layout_marginBottom="60dp"
-        android:gravity="center"/>
+        android:gravity="center" />
 
     <!-- Campo de texto para Email -->
     <EditText
