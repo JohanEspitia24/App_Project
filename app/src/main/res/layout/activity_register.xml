@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:layout_margin="70dp"
+    android:background="@drawable/rounded_courners">
+
+    <!-- Campo de bienvenida -->
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:hint="New user"
+        android:gravity="center"
+        android:textColorHint="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <!-- Campo de texto para Nombre -->
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Firts Name"
+        android:padding="12dp"
+        android:backgroundTint="#BDBDBD"
+        android:textColorHint="#000000"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Campo de texto para Apellido -->
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Last Name"
+        android:padding="12dp"
+        android:backgroundTint="#BDBDBD"
+        android:textColorHint="#000000"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Campo de texto para Correo -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:padding="12dp"
+        android:backgroundTint="#BDBDBD"
+        android:textColorHint="#000000"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Campo de texto para Contraseña Nueva -->
+    <EditText
+        android:id="@+id/etNewPassword"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="New Password"
+        android:padding="12dp"
+        android:backgroundTint="#BDBDBD"
+        android:textColorHint="#000000"
+        android:layout_marginBottom="40dp"
+        android:inputType="textPassword"/>
+
+    <!-- Botón de Registrar -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Register"
+        android:textColor="#000000"
+        android:backgroundTint="#616161"
+        android:textStyle="bold"
+        android:gravity="center"/>
+</LinearLayout>
