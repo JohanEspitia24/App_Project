@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">ProyectoEntrega2</string>
+    <string name="c_mo_quieres_pagar">¿Cómo quieres pagar?</string>
+    <string name="tienes_alg_n_bono_ingr_salo_aqu">¿Tienes algún bono? Ingrésalo aquí:</string>
+    <string name="c_digo_del_bono">Código del bono</string>
+    <string name="tus_tarjetas_registradas">Tus tarjetas registradas:</string>
+    <string name="confirmaci_n_de_la_orden">Confirmación de la orden:</string>
+    <string name="direcci_n_calle_123_45_67">Dirección: Calle 123 #45-67</string>
+    <string name="talla_m">Talla: M</string>
+    <string name="unidades_2">Unidades: 2</string>
+    <string name="precio_con_env_o_50_000">Precio con envío: $50.000</string>
+    <string name="efectivo">Efectivo</string>
+    <string name="nequi">Nequi</string>
+    <string name="tarjeta_d_bito_cr_dito">Tarjeta débito/crédito</string>
 </resources>
